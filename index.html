@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список Админов</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body { background: #1c1c1e; color: white; font-family: sans-serif; padding: 15px; }
+        .card { background: #2c2c2e; border-radius: 12px; padding: 15px; margin-bottom: 15px; display: flex; gap: 15px; }
+        .avatar { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; background: #444; }
+        .info { flex: 1; }
+        .name { font-weight: bold; font-size: 18px; margin-bottom: 5px; color: #0a84ff; }
+        .badge { font-size: 12px; background: #3a3a3c; padding: 3px 8px; border-radius: 6px; }
+        .desc { font-size: 14px; color: #aaa; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <h2>🛡️ Команда Проекта</h2>
+    <div id="admin-list">
+        <!-- Карточки будут загружаться сюда -->
+        <div class="card">
+            <div class="info">
+                <div class="name">Nevada k</div>
+                <span class="badge">Мужской 🧑</span>
+                <span class="badge">🔥 142 сообщ.</span>
+                <div class="desc">Главный администратор.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
